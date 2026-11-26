@@ -1,0 +1,20 @@
+{
+  "format": "synthetix_restaurant_menu",
+  "version": 1,
+  "restaurantName": "Menu Cel",
+  "slogan": "",
+  "logo": null,
+  "colors": {
+    "primary": "#6b332e",
+    "accent": "#d9b86c"
+  },
+  "showCurrencyReference": false,
+  "exchangeRateSource": null,
+  "vesPerUsd": null,
+  "whatsapp": "",
+  "whatsappMessage": "",
+  "menu": {
+    "categories": [],
+    "products": []
+  }
+}
