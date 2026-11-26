@@ -604,7 +604,9 @@
           data = initialMenuData;
           initialMenuData = null;
         } else {
-          const businessId = new URLSearchParams(location.search).get('negocio');
+          const businessId =
+            new URLSearchParams(location.search).get('negocio') ||
+            window.__SYNTHETIX_BUSINESS_ID__;
           if (!businessId) throw new Error('Falta el identificador del restaurante.');
           const url = new URL('/menu.json', location.origin);
           url.searchParams.set('negocio', businessId);
